@@ -1,0 +1,14 @@
+commit.sh
+*.DS_Store
+replace-db
+wp-content/uploads/cache/
+node_modules/
+wp-content/plugins/contact-form-7/
+wp-content/plugins/flamingo/
+wp-content/plugins/wp-smtp-mail-config/
+wp-content/plugins/redux-framework/
+wp-content/plugins/wp-user-avatar/
+wp-content/plugins/tinymce-advanced/
+wp-content/plugins/better-wp-security/
+wp-content/uploads/ithemes-security/
+

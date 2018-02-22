@@ -1,0 +1,38 @@
+{
+"repositories":[
+        {
+            "type":"composer",
+            "url":"https://wpackagist.org"
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "redux-framework", 
+                "version": "3.6.4.4",
+                "source": {
+                    "url": "https://github.com/reduxframework/redux-framework.git", 
+                    "type": "git",
+                    "reference": "master" 
+                }
+            }
+        }
+    ],
+
+    "require": {
+        "wpackagist-plugin/redux-framework": "3.6.7.7",
+ 	"wpackagist-plugin/contact-form-7": "4.9.2",
+        "wpackagist-plugin/flamingo": "1.7",
+	"wpackagist-plugin/wp-smtp-mail-config": "0.1.0",
+	"wpackagist-plugin/wp-user-avatar": "2.0.9",
+	"wpackagist-plugin/tinymce-advanced": "4.6.7",
+	"wpackagist-plugin/better-wp-security": "6.8.0",
+	"wpackagist-plugin/email-subscribers": "3.4.7",
+	"wpackagist-plugin/remove-category-url": "1.1.2",
+        "soberwp/controller": "9.0.0-beta.3",
+	"wpackagist-plugin/newsletter": "5.2.2"
+    },
+
+    "config": {
+            "secure-http": false
+    }
+}
